@@ -29,7 +29,7 @@ function view_cover_cp() {
 
 function add_view_cover_to_action_box(){
 
-    if (is_singular('cases')){ 
+    if (is_singular('cases') and has_term( 'remont', 'functions')){ 
         $url = add_query_arg( array('view' => 'order_repair'));
         ?>
         <li>
