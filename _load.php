@@ -3,6 +3,8 @@
 Plugin Name: CasePress. Печатная форма заказа услуги по ремонту
 Description: Нужна при заказе ремонта и печати квитка для клиента с его подписью
 License: Free
+GitHub Plugin URI: https://github.com/systemo-biz/cp_print_order_repair
+GitHub Branch: master
 */
 
 class Print_Form_Order_Repair_CP_Singltone {
